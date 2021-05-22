@@ -1,6 +1,5 @@
 package day35_methods_with_param;
 
-import mugi.ArrayMugi;
 
 public class MethodWithInputs {
     public static void main(String[] args) {

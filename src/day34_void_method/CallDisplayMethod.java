@@ -5,5 +5,6 @@ public class CallDisplayMethod {
 //        WHEN TO CALL FROM ANOTHER CLASS
 //        classname.methodName
         FirstMethod.displayMessage();
+        StartCar.startTheCar();
     }
 }

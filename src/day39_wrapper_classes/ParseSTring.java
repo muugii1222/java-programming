@@ -1,6 +1,6 @@
 package day39_wrapper_classes;
 
-public class ParseSTring {
+public class ParseString {
     public static void main(String[] args) {
 
         String total = "345";

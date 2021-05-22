@@ -23,5 +23,6 @@ public class ArrayListExample {
         nums.remove(1);
         System.out.println(nums);
 
+
     }
 }
