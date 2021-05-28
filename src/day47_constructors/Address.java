@@ -8,12 +8,31 @@ public class Address {
         private int zipCode;
         private String country = "USA";
 
+        //constructor - automatically called
+        public Address(){
+            System.out.println("Address constructor");
+            street = "123 unknown st";
+            city = "Unknown";
+            state = "WS";
+            zipCode = 00000;
+        }
+        public Address(String street, String city, String state, int zipCode) {
+            setStreet(street);//reuse the code in the setter method
+            this.city = city;
+            this.state = state;
+            this.zipCode = zipCode;
+        }
+
     public String getStreet() {
         return street;
     }
 
     public void setStreet(String street) {
-        this.street = street;
+            if (street.isEmpty() || street.length() > 50){
+                System.out.println("ERROR");
+            } else {
+                this.street = street;
+            }
     }
 
     public String getCity() {
