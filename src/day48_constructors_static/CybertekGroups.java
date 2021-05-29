@@ -30,5 +30,9 @@ public class CybertekGroups {
         } else {
             System.out.println("Akrem is group member");
         }
+
+        group1.removeMember("Pavel");
+        group1.removeMember("Elvin");
+        System.out.println(group1);
     }
 }
