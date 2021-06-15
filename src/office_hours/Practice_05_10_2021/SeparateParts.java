@@ -1,8 +1,6 @@
-package office_hours.Practice_05_10_21;
+package office_hours.Practice_05_10_2021;
 
-import java.sql.SQLOutput;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class SeparateParts {
     public static void main(String[] args) {
