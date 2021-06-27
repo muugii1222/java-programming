@@ -1,6 +1,6 @@
 package day51_inheritance;
 
-public class EmployeeObjects {
+public class EmployeeObjects{
     public static void main(String[] args) {
 
         Employee employee = new Employee();
