@@ -20,17 +20,9 @@ public abstract class SocialMedia {
     int accountLength;
     static String platform;
 
-    public void directMessaging(String username, String message) {
-
-    }
-
-    public void post(String body){
-
-    }
-
-    public void notifications(){
-
-    }
+    public abstract void directMessage(String username, String message);
+    public abstract void post(String body);
+    public abstract void notifications();
 
 
 

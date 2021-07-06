@@ -1,5 +1,8 @@
 package office_hours.socialMedia_task;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 /**
  Post class
 
@@ -20,7 +23,12 @@ package office_hours.socialMedia_task;
 public class Post {
 
     private String body;
-    private final String dateTime = null;
+    private final String DATE_TIME;
+
+    public Post (String body){
+        this.body = body;
+        DATE_TIME = LocalDateTime.now().format(DateTimeFormatter.ofPattern("MMM dd, yyyy | hh:mm a"));
+    }
 
     public String getBody() {
         return body;
@@ -31,6 +39,6 @@ public class Post {
     }
 
     public String getDateTime() {
-        return dateTime;
+        return DATE_TIME;
     }
 }

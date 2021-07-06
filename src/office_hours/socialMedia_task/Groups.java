@@ -16,5 +16,9 @@ package office_hours.socialMedia_task;
  */
 
 
-public interface hasGroups {
+public interface Groups {
+
+    void joinGroup(String groupName);
+    void leaveGroup(String groupName);
+
 }

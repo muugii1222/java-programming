@@ -3,6 +3,7 @@ package day54_abstraction;
 import day50_inheritance.AudioBook;
 
 public abstract class MyAbstractClass {
+
     int num = 55;
     public void learn(){
         System.out.println("Learning...");
