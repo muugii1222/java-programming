@@ -13,12 +13,13 @@ public class RandomPassword {
         Random random = new Random();
 
         for (int i = 1; i < 8; i++) {
-//            System.out.println(random.nextInt(21));// numbers
+            System.out.println(random.nextInt(21));// numbers
 
             int index = random.nextInt(71);
             System.out.print(source.charAt(index));
             password += source.charAt(index);
         }
         System.out.println("\nYour password = " + password);
+
     }
 }
